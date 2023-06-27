@@ -1,0 +1,152 @@
+<div id="home">
+		<div class="main-top">
+			<nav class="navbar navbar-expand-lg navbar-light fixed-navi p-lg-0 ">
+				<div class="wrap navi-planners-tempss">
+					<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+					    aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+						<span class="navbar-toggler-icon"></span>
+					</button>
+					<div class="collapse navbar-collapse" id="navbarSupportedContent">
+						<ul class="navbar-nav mr-lg-auto text-center">
+							<li class="nav-item">
+								<a class="nav-link scroll" href="index.html">Home</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link scroll" href="about.html">About Us</a>
+							</li>
+
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								    aria-haspopup="true" aria-expanded="false">
+									Academics
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+									<a class="dropdown-item scroll" href="#subscribe">Online Admission Form</a>
+									<a class="dropdown-item scroll" href="#services">Academic Calender</a>
+									<a class="dropdown-item scroll" href="#news">Fee Structure</a>
+									<a class="dropdown-item scroll" href="#clients">Ofline Admission Form</a>
+								</div>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								    aria-haspopup="true" aria-expanded="false">
+									Departments
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+
+									<a class="dropdown-item scroll" href="#subscribe">Automobile & Engineering</a>
+									<a class="dropdown-item scroll" href="#services">Civil Engineering</a>
+									<a class="dropdown-item scroll" href="cse.php">Computer Science & Engineering</a>
+									<a class="dropdown-item scroll" href="#news">Electrical & Electronics Engineering</a>
+									<a class="dropdown-item scroll" href="#news">Electronics & Communications Engineering</a>
+									<a class="dropdown-item scroll" href="#news">Information Science & Engineering</a>
+									<a class="dropdown-item scroll" href="#news">Mechanical Engineering</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item scroll" href="#news">Master in Business Administration</a>
+									<a class="dropdown-item scroll" href="#news">Department of Chemistry</a>
+									<a class="dropdown-item scroll" href="#news">Department of Physics</a>
+									<a class="dropdown-item scroll" href="#news">Department of Mathematics</a>
+									<a class="dropdown-item scroll" href="#news">Department of Physical Education & Sports</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link scroll" href="#gallery">Events</a>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link scroll" href="#who">Placements</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								    aria-haspopup="true" aria-expanded="false">
+									Facilities
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item scroll" href="#subscribe">Library</a>
+									<a class="dropdown-item scroll" href="#news">Hostel</a>
+									<a class="dropdown-item scroll" href="#clients">CAMU Digital</a>
+									<a class="dropdown-item scroll" href="#clients">Greivance Form</a>
+								</div>
+							</li>
+							<li class="nav-item">
+								<a class="nav-link scroll" href="#contact">Alumni</a>
+							</li>
+							<li class="nav-item dropdown">
+								<a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown"
+								    aria-haspopup="true" aria-expanded="false">
+									More
+								</a>
+								<div class="dropdown-menu" aria-labelledby="navbarDropdown">
+									<a class="dropdown-item scroll" href="#subscribe">Downloads</a>
+									<a class="dropdown-item scroll" href="#news">Contact Us</a>
+									<div class="dropdown-divider"></div>
+									<a class="dropdown-item scroll" href="#clients">Admin Login</a>
+								</div>
+							</li>
+						
+						</ul>
+					</div>
+				</div>
+			</nav>
+		</div>
+	</div>		<!-- //navigation -->
+<div id="footer"></div>
+<script src="js/jquery-2.2.3.min.js"></script>
+
+	<script src="js/fixed-nav.js"></script>
+	<script src="js/text-typing.js"></script>
+	<script src="js/owl.carousel.js"></script>
+	<script>
+		$(document).ready(function () {
+			$('.owl-carousel').owlCarousel({
+				loop: true,
+				margin: 10,
+				responsiveClass: true,
+				responsive: {
+					0: {
+						items: 1,
+						nav: true
+					},
+					600: {
+						items: 1,
+						nav: false
+					},
+					900: {
+						items: 1,
+						nav: false
+					},
+					1000: {
+						items: 1,
+						nav: true,
+						loop: false,
+						margin: 20
+					}
+				}
+			})
+		})
+	</script>
+	<script src="js/SmoothScroll.min.js"></script>
+	<script src="js/move-top.js"></script>
+	<script src="js/easing.js"></script>
+	<script src="js/party.js"></script>
+	<script src="js/bootstrap.js"></script>
+	<script src="js/jquery-1.7.2.js"></script>
+	<script src="js/jquery.quicksand.js"></script>
+	<script src="js/script.js"></script>
+	<script src="js/jquery.prettyPhoto.js"></script>
+	<link href="css/prettyPhoto.css" rel="stylesheet" type="text/css" />
+	<script type="text/javascript" src="js/routes.js"></script>
+			<script>
+		$(document).ready(function () {
+			$(".dropdown").hover(
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideDown("fast");
+					$(this).toggleClass('open');
+				},
+				function () {
+					$('.dropdown-menu', this).stop(true, true).slideUp("fast");
+					$(this).toggleClass('open');
+				}
+			);
+		});
+	</script>
